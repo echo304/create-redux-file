@@ -4,7 +4,7 @@
   "description": "Create required redux file(action, reducer, constant) with cli!!",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha"
   },
   "bin": {
     "create-file": "index.js"
